@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+p{font-size:20px;font-family:'Roboto', sans-serif;text-align: justify;}
+
+#logo{margin-left: 45px;}
+
+.home {
+	/*background-image: url("Web images from XD/HOME.png");*/
+	display:block;
+	width: 68px;
+	height: 30px;
+	margin-left: 655px;
+	
+	float: left;
+	background-size: contain;
+		
+}
+.videos {
+	/*background-image: url("Web images from XD/VIDEOS.png");*/
+	width: 80px;
+	height: 30px;
+	margin-left: 90px;
+	float: left;
+	background-size: contain;
+	
+}
+.gear {
+	/*background-image: url("Web images from XD/GEAR.png");*/
+	width: 65px;
+	height: 30px;
+	margin-left: 90px;
+	float: left;
+	background-size: contain;
+}
+.contact {
+	/*background-image: url("Web images from XD/CONTACT.png");*/
+	width: 105px;
+	height: 30px;
+	margin-left: 90px;
+	float: left;
+	background-size: contain;
+}
+#home_button {
+    background-image:url("images/HOME.png");
+    display:block;
+    height:30px;
+    width:68px;
+	text-indent:-9999px;
+}
+#video_button {
+	background-image:url("images/VIDEOS.png");
+	backgrond-size: contain;
+    display:block;
+    height:30px;
+    width:85px;
+	text-indent:-9999px;
+}
+#gear_button {
+	background-image:url("images/GEAR.png");
+	backgrond-size: contain;
+    display:block;
+    height:30px;
+    width:65px;
+	text-indent:-9999px;
+}
+#contact_button{
+	background-image:url("images/CONTACT.png");
+	backgrond-size: contain;
+    display:block;
+    height:30px;
+    width:105px;
+	text-indent:-9999px;
+}
+
+
+.image {float: right; padding-top: 0px;margin-right: 75px;}
+.nav {float: right; padding-top: 0px;margin-right: 75px;}
+.info {width: 550px; float: left;margin-left: 75px;}
+
+
+.title {
+	margin-left: 80px;
+}
+
+.left_pic {
+	background-image:url("images/Juiced-Thumbnail.jpg");
+	width: 500px;
+	height: 281px;
+	margin-left: 80px;
+	float: left;
+	background-size: contain;
+	}
+.left_caption {
+	
+	margin-top: 275px;
+	width: 500px;
+	overflow:scroll;
+	
+}
+.right_pic {
+	background-image:url("images/Lost in Japan.jpg");
+	width: 500px;
+	height: 281px;
+	margin-left:200px;
+	float: left;
+	background-size:contain;
+	
+}
+.right_caption {
+	margin-top: 275px;
+	width: 500px;
+	overflow:scroll;
+}
+
+@media only screen and (max-width: 700px) {
+	.right_pic{
+		margin-left:150px;
+	}
+}
+
+@media only screen and (min-width: 1060px) {
+	.left_pic{
+		margin-left:60px;
+		
+	}
+	.right_pic {
+		margin-left: 200px;
+	}
+	
+	.home:hover  {
+	transform: rotate(-10deg);
+	/* or move margin could be margin-left:30px; to animate right*/
+	font-size: 20px;
+	transition: all.1s
+}
+
+	.videos:hover {
+	transform: rotate(-10deg);
+	/* or move margin could be margin-left:30px; to animate right*/
+	font-size: 20px;
+	transition: all.1s
+}
+	.gear:hover{
+	transform: rotate(-10deg);
+	/* or move margin could be margin-left:30px; to animate right*/
+	font-size: 20px;
+	transition: all.1s	
+		}
+	
+	.gear:hover {
+	transform: rotate(-10deg);
+	/* or move margin could be margin-left:30px; to animate right*/
+	font-size: 20px;
+	transition: all.1s	
+		}
+	
+	.contact:hover {
+		transform: rotate(-10deg);
+	/* or move margin could be margin-left:30px; to animate right*/
+	font-size: 20px;
+	transition: all.1s
+	}
+		
+
+
+
